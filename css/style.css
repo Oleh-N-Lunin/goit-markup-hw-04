@@ -155,7 +155,7 @@ img {
 
 .hero {
   max-width: 1600px;
-  /* max-height: 600px; */
+  max-height: 600px;
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.8),
       rgba(47, 48, 58, 0.8)
@@ -168,7 +168,7 @@ img {
 
 .container-item {
   padding-top: 200px;
-  padding-bottom: 200px;
+  padding-bottom: 165px;
 }
 
 .hero-title {
@@ -181,7 +181,7 @@ img {
   color: var(--title-color-secondary);
   margin-top: 0px;
   margin-bottom: 30px;
-  padding-top: 200px;
+  /* padding-top: 200px; */
 }
 
 .hero-section-button {
@@ -341,10 +341,12 @@ img {
 /* Нужно разобраться!!!! */
 
 .social-link-item-svg:hover,
-.our-team-social-item:hover,
-.social-link-item-svg:focus,
-.our-team-social-item:focus {
+.social-link-item-svg:focus {
   fill: var(--text-secondary-color);
+}
+
+.our-team-social-item:hover,
+.our-team-social-item:focus {
   background-color: var(--accent-color);
 }
 
@@ -416,10 +418,15 @@ img {
 
 .social-links {
   display: flex;
+  flex-wrap: wrap;
+  max-width: 208px;
+  max-height: 80px;
 }
 
 .social-list-footer {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .form-footer {
@@ -474,11 +481,31 @@ img {
   color: var(--text-secondary-color);
 }
 
-/*Our Team section*/
+.footer-social-icon-svg {
+  width: 20px;
+  height: 20px;
+  fill: #ffffff;
+}
+
+.social-list-footer-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--text-main-color);
+}
+
+.social-list-footer-item:hover,
+.social-list-footer-item:focus {
+  background-color: var(--accent-color);
+}
+/* Our Team section
 
 .our-team-list {
   display: flex;
-}
+} */
 
 /*PORTFOLIO*/
 
