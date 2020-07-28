@@ -271,13 +271,8 @@ img {
 
 /* OUR TEAM */
 
-/* .our-team-section {
-  background-color: #f5f4fa;
-} */
-
 .our-team-list {
   display: flex;
-  /* background-color: #ffffff; */
 }
 
 .our-team-item:not(:last-child) {
@@ -299,55 +294,33 @@ img {
   margin-right: auto;
   padding-bottom: 24px;
 }
-.our-team-social-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-}
 
 .social-link-item-svg {
   width: 20px;
   height: 20px;
-  /* margin-left: auto;
-  margin-right: auto; */
 }
 
-/* .our-team-social-link {
+.our-team-social-link {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: #757575;
-} */
+}
 
 .social-link-item-svg {
   fill: var(--text-main-color);
 }
 
-/* .our-team-social-link:hover {
+.our-team-social-link:hover {
   background-color: var(--accent-color);
-} */
-
-/* .social-list-item-link:hover .social-list-item-link-svg,
-.social-list-item-link:focus .social-list-item-link-svg {
-  fill: var(--accent-color);
-} */
-
-/* Нужно разобраться!!!! */
-
-.social-link-item-svg:hover,
-.social-link-item-svg:focus {
-  fill: var(--text-secondary-color);
 }
 
-.our-team-social-item:hover,
-.our-team-social-item:focus {
+.our-team-social-link:hover .social-link-item-svg,
+.our-team-social-link:focus .social-link-item-svg {
   background-color: var(--accent-color);
+  fill: var(--text-secondary-color);
 }
 
 .our-team-title {
