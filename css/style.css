@@ -25,7 +25,7 @@ html {
 body {
   font-family: var(--main-font);
   font-size: 14px;
-  background-color: #e5e5e5;
+  background-color: #ffffff;
 }
 
 .link {
@@ -75,6 +75,38 @@ img {
   margin-right: 50px;
 }
 
+.adress-mail-svg {
+  display: inline-block;
+  width: 16px;
+  height: 11px;
+  margin-right: 10px;
+  fill: var(--text-main-color);
+}
+
+.adress-tel-svg {
+  display: inline-block;
+  width: 10px;
+  height: 15px;
+  margin-right: 10px;
+  fill: var(--text-main-color);
+}
+
+.adress-mail:hover .adress-mail-svg,
+.adress-mail:focus .adress-mail-svg {
+  fill: var(--accent-color);
+}
+
+.adress-tel:hover .adress-tel-svg,
+.adress-tel:focus .adress-tel-svg {
+  fill: var(--accent-color);
+}
+
+.header-adress-list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .header-adress-list {
   display: flex;
   margin-top: 0px;
@@ -107,10 +139,6 @@ img {
 .footer-logo-web {
   color: var(--accent-color);
 }
-
-/* .adress-mail {
-  margin-right: 50px;
-} */
 
 .navigation-menu-link {
   padding-top: 32px;
@@ -202,16 +230,32 @@ img {
 }
 
 /* About Us Section */
-/* 
-.about-us-section {
-  background-color: #ffffff;
-} */
 
 .about-us-menu {
   display: flex;
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.about-us-svg {
+  width: 70px;
+  height: 70px;
+  padding: 100px, 25px, 100px, 25px;
+}
+
+.about-us-fone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: #f5f4fa;
+}
+
+/* .about-us-item {
+  width: 270px;
+  height: 251px;
+} */
 
 .about-us-item:not(:last-child) {
   margin-right: 30px;
@@ -233,10 +277,6 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-main-color);
-}
-
-.about-us-img {
-  margin-bottom: 30px;
 }
 
 .about-us-title {
