@@ -250,12 +250,8 @@ img {
   height: 120px;
   margin-bottom: 30px;
   background-color: #f5f4fa;
+  border-radius: 4px;
 }
-
-/* .about-us-item {
-  width: 270px;
-  height: 251px;
-} */
 
 .about-us-item:not(:last-child) {
   margin-right: 30px;
@@ -285,6 +281,10 @@ img {
 
 /* WHAT DO WE DO */
 
+.what-we-do {
+  padding-bottom: 94px;
+}
+
 .our-works-menu {
   display: flex;
 }
@@ -310,6 +310,11 @@ img {
 }
 
 /* OUR TEAM */
+
+.our-team-section {
+  background-color: #f5f4fa;
+  padding-bottom: 94px;
+}
 
 .our-team-list {
   display: flex;
@@ -406,8 +411,32 @@ img {
   justify-content: center;
   width: 170px;
   height: 90px;
-  border: var(--text-main-color) 1px solid;
+  border: #afb1b8 1px solid;
   border-radius: 4px;
+}
+
+.client-logo-svg {
+  fill: #afb1b8;
+}
+
+.our-client-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 63px;
+  padding-right: 63px;
+}
+
+.our-client-list-item:hover {
+  border: var(--accent-color) 1px solid;
+}
+
+.our-client-logo:hover .client-logo-svg {
+  fill: var(--accent-color);
+}
+
+.our-client-logo:focus .client-logo-svg {
+  fill: var(--accent-color);
 }
 
 /* FOOTER */
