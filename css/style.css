@@ -384,10 +384,6 @@ img {
   padding-bottom: 94px;
 }
 
-/* .our-client-list {
-  margin-top: 74px;
-} */
-
 .our-client-list-item:not(:last-child) {
   margin-right: 30px;
 }
@@ -484,10 +480,10 @@ img {
 .footer-social-icon-svg {
   width: 20px;
   height: 20px;
-  fill: #ffffff;
+  fill: var(--text-secondary-color);
 }
 
-.social-list-footer-item {
+.social-list-footer-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -497,15 +493,10 @@ img {
   background-color: var(--text-main-color);
 }
 
-.social-list-footer-item:hover,
-.social-list-footer-item:focus {
+.social-list-footer-link:hover,
+.social-list-footer-link:focus {
   background-color: var(--accent-color);
 }
-/* Our Team section
-
-.our-team-list {
-  display: flex;
-} */
 
 /*PORTFOLIO*/
 
