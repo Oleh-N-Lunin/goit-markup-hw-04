@@ -582,10 +582,12 @@ img {
 
 .projects-title {
   margin-bottom: 4px;
+  padding-left: 24px;
 }
 
 .projects-type {
   margin-bottom: 20px;
+  padding-left: 24px;
 }
 
 .our-projects {
@@ -605,6 +607,7 @@ img {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
+  border: 1px solid #eeeeee;
 }
 
 .projects-list-item:nth-child(3n) {
